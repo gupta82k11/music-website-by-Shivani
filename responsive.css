@@ -1,0 +1,31 @@
+/* media qyery */
+@media(min-width:1024px) and (max-width:1400px) {
+    header .menu_side, .song_side{
+         width:35%;
+    
+    }
+    header .song_side{
+        width:65%;
+    }
+    header .master_play .icon{
+        display:flex;
+
+    }
+    }
+
+    @media(min-width:768px) and (max-width:1024px) {
+        header .menu_side, .song_side{
+             width:45%;
+        
+        }
+        header .song_side{
+            width:55%;
+        }
+        header .master_play .icon{
+            display:flex;
+            
+        }
+        header .song_side .content{
+            height:35%;
+        }
+        }
