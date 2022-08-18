@@ -29,3 +29,33 @@
             height:35%;
         }
         }
+@media(min-width:425px) and (max-width:768px) {
+            header .menu_side, .song_side{
+                 width:0%;
+                 
+            
+            }
+            header .song_side{
+                width:100%;
+            }
+            header .song_side nav ul li {
+                font-size:9px;
+                margin-right:10px;
+        }
+        header .song_side .content {
+             height:30%;
+             padding-top:0;
+
+        }
+        header .song_side .content h1 {
+            font-size: 21px;
+            font-weight: 400;
+        }
+        header .song_side .content p {
+            font-size:13px;
+            
+        }
+        header .song_side .popular_song{
+            margin-top:15px;
+        }
+    }
